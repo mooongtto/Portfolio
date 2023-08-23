@@ -700,6 +700,124 @@
     object-position: center -7px;
 }
 
+/* sec-4 영역 */
+.sec-4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FBE6E1;
+    display: flex;
+    justify-content: center;
+}
+.sec-4 .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 1600px;
+}
+.sec-4 .box-wrap.txt{
+    width: 50%;
+}
+.sec-4 .txt-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sec-4 .txt-box-sub{
+    width: 82%;
+}
+.sec-4 .number{
+    font-size: 56px;
+    font-weight: 600;
+    color: #FFFDFC;
+}
+.sec-4 .title{
+    width: 112px;
+    font-size: 28px;
+    font-weight: 550;
+    color: #E79F8D;
+    margin-top: 20px;
+    border-bottom: 2px solid #FFFDFC;
+}
+.sec-4 .account{
+    font-weight: 600;
+    color: #E79F8D;
+    margin-top: 30px;
+}
+.sec-4 .a_box{
+    margin-bottom: 32px;
+}
+.sec-4 .a_box .a_title{
+    font-size: 22px;
+}
+.sec-4 .a_box .a_txt{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sec-4 .main_txt{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 53px;
+}
+.sec-4 .main_txt p{
+    line-height: 38px;
+}
+.sec-4 .web-site{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sec-4 .site-box{
+    width: 390px;
+    height: 95px;
+    background-color: #EBB5A8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-4 .site-box .box{
+    width: 76px;
+}
+.sec-4 .site-box .txt{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FEF7F5;
+}
+.sec-4 .site-box .icon{
+    width: 95px;
+    height: 95px;
+}
+.sec-4 .site-box:hover .icon{
+    animation: angle 0.8s linear infinite;
+}
+@keyframes angle{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.sec-4 .box-wrap.img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-4 .img-wrap{
+    width: 760px;
+    height: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec-4 .img-box{
+    width: 240px;
+    height: 240px;
+}
+
 /* footer 영역 */
 .footer{
     width: 100%;
