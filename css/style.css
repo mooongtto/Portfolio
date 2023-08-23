@@ -1027,6 +1027,33 @@
         width: 340px;
         height: 85px;
     }
+    .sec-4 .container{
+        width: 1200px;
+    }
+    .sec-4 .img-wrap{
+        width: 610px;
+        height: 610px;
+    }
+    .sec-4 .img-box{
+        width: 190px;
+        height: 190px;
+    }
+    .sec-4 .number{
+        font-size: 52px;
+    }
+    .sec-4 .title{
+        margin-top: 12px;
+    }
+    .sec-4 .account{
+        margin-top: 20px;
+    }
+    .sec-4 .a_box{
+        margin-bottom: 24px;
+    }
+    .sec-4 .site-box{
+        width: 340px;
+        height: 85px;
+    }
     .footer .container-wrap .container .box .contact{
         font-size: 88px;
     }
@@ -1245,6 +1272,52 @@
         width: 74px;
         height: 74px;
     }
+    .sec-4 .container{
+        width: 960px;
+    }
+    .sec-4 .box-wrap.txt{
+        width: 40%;
+    }
+    .sec-4 .box-wrap.img{
+        width: 60%;
+    }
+    .sec-4 .img-wrap {
+        width: 590px;
+        height: 590px;
+    }
+    .sec-4 .img-box {
+        width: 180px;
+        height: 180px;
+    }
+    .sec-4 .number{
+        font-size: 48px;
+    }
+    .sec-4 .title{
+        font-size: 26px;
+    }
+    .sec-4 .a_box .a_title{
+        font-size: 20px;
+    }
+    .sec-4 .main_txt{
+        font-size: 18px;
+    }
+    .sec-4 .main_txt p {
+        line-height: 32px;
+    }
+    .sec-4 .site-box {
+        width: 260px;
+        height: 76px;
+    }
+    .sec-4 .site-box .box {
+        width: 58px;
+    }
+    .sec-4 .site-box .txt {
+        font-size: 26px;
+    }
+    .sec-4 .site-box .icon {
+        width: 74px;
+        height: 74px;
+    }
 }
 
 @media (max-width: 960px){
@@ -1409,6 +1482,25 @@
     .sec-1 .box-wrap.img{
         width: 100%;
     }
+    .sec-4{
+        height: auto;
+        padding: 40px 0;
+    }
+    .sec-4 .container{
+        display: block;
+        width: 720px;
+        height: auto;
+    }
+    .sec-4 .txt-box-sub {
+        width: 100%;
+    }
+    .sec-4 .box-wrap.txt{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sec-4 .box-wrap.img{
+        width: 100%;
+    }
     
 }
 
@@ -1483,6 +1575,9 @@
         width: 80%;
     }
     .sec-1 .container{
+        width: 80%;
+    }
+    .sec-4 .container{
         width: 80%;
     }
     .footer .container-wrap .container{
@@ -1563,6 +1658,14 @@
     .sec-1 .img-box:nth-child(6) img {
         object-position: center -50px;
     }
+    .sec-4 .img-wrap {
+        width: 500px;
+        height: 500px;
+    }
+    .sec-4 .img-box {
+        width: 160px;
+        height: 160px;
+    }
 }
 
 @media (max-width: 616px){
@@ -1595,6 +1698,14 @@
     }
     .sec-1 .img-box:nth-child(6) img {
         object-position: center -40px;
+    }
+    .sec-4 .img-wrap {
+        width: 440px;
+        height: 440px;
+    }
+    .sec-4 .img-box {
+        width: 140px;
+        height: 140px;
     }
     .frofile .container-wrap .container .f-txt .box3 .sub-txt .box p {
         font-size: 16px;
@@ -1654,6 +1765,14 @@
     height: 370px;
     }
     .sec-1 .img-box {
+    width: 120px;
+    height: 120px;
+    }
+    .sec-4 .img-wrap {
+    width: 370px;
+    height: 370px;
+    }
+    .sec-4 .img-box {
     width: 120px;
     height: 120px;
     }
@@ -1895,6 +2014,48 @@
     }
     .sec-1 .img-box:nth-child(8) img {
         object-position: center -4px;
+    }
+    .sec-4 .number {
+        font-size: 40px;
+    }
+    .sec-4 .title {
+        font-size: 24px;
+        width: 96px;
+    } 
+    .sec-4 .a_box .a_title {
+        font-size: 18px;
+    }
+    .sec-4 .a_box .a_txt {
+        font-size: 18px;
+    }
+    .sec-4 .main_txt {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .sec-4 .main_txt p {
+        line-height: 26px;
+    }
+    .sec-4 .site-box {
+        width: 200px;
+        height: 60px;
+    }
+    .sec-4 .site-box .box {
+        width: 40px;
+    }
+    .sec-4 .site-box .txt {
+        font-size: 22px;
+    }
+    .sec-4 .site-box .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .sec-4 .img-wrap {
+        width: 300px;
+        height: 300px;
+    }
+    .sec-4 .img-box {
+        width: 94px;
+        height: 94px;
     }
     .footer .container-wrap .container .box .contact {
         font-size: 56px;
